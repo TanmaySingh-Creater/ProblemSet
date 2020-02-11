@@ -732,6 +732,23 @@
     ],
     "timestamp": "Dec/16/2019 13:07"
   },
+  "CF70801569": {
+    "contest_id": 109,
+    "language": "GNU C++14",
+    "path": "codeforces/109/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Lucky Sum of Digits",
+    "problem_url": "https://codeforces.com/contest/109/problem/A",
+    "submission_id": "CF70801569",
+    "submission_url": "https://codeforces.com/contest/109/submission/70801569",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Feb/11/2020 22:35"
+  },
   "CF70957868": {
     "contest_id": 385,
     "language": "GNU C++14",
