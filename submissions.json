@@ -732,6 +732,24 @@
     ],
     "timestamp": "Dec/16/2019 13:07"
   },
+  "CF70787554": {
+    "contest_id": 96,
+    "language": "GNU C++14",
+    "path": "codeforces/96/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Lucky Numbers (easy)",
+    "problem_url": "https://codeforces.com/contest/96/problem/B",
+    "submission_id": "CF70787554",
+    "submission_url": "https://codeforces.com/contest/96/submission/70787554",
+    "tags": [
+      "binary search",
+      "bitmasks",
+      "brute force",
+      "*1300"
+    ],
+    "timestamp": "Feb/11/2020 18:19"
+  },
   "CF70801569": {
     "contest_id": 109,
     "language": "GNU C++14",
