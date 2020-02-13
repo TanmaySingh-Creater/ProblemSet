@@ -1,86 +1,108 @@
-//
-//  CPlibrary
-//
-//  Created by Tanmay Singh on 3/03/2020.
-// INDIAN INSTITUTE OF TECHNOLOGY (BHU) , VARANASI
-//  Copyright © 2020 Tanmay Singh. All rights reserved.
-//#pragma GCC target ("avx2")
-#pragma GCC optimization ("O3")
-//#pragma GCC optimization ("unroll-loops")
+#include<algorithm>
+#include<iostream>
+#include<sstream>
+#include<cstring>
+#include<cstdlib>
+#include<climits>
+#include<fstream>
+#include<cctype>
+#include<cstdio>
+#include<string>
+#include<vector>
+#include<queue>
+#include<stack>
+#include<cmath>
+#include<map>
+#include<set>
+using namespace std;
 
-#include <algorithm>
-#include <bitset>
-#include <cassert>
-#include <chrono>
-#include <cmath>
-#include <complex>
-#include <cstdio>
-#include <cstdlib>
-#include <cstring>
-#include <ctime>
-#include <deque>
-#include <functional>
-#include <iomanip>
-#include <iostream>
-#include <iterator>
-#include <limits>
-#include <list>
-#include <map>
-#include <numeric>
-#include <queue>
-#include <random>
-#include <ratio>
-#include <set>
-#include <sstream>
-#include <stack>
-#include <string>
-#include <unordered_map>
-#include <unordered_set>
-#include <utility>
-#include <vector>
+#define pb push_back
+#define mp make_pair
+#define Y second
+#define X first
 
-#define FAST(); ios_base::sync_with_stdio(false);cin.tie(NULL);
-#define endl "\n"
+#define fi freopen("input.txt","r",stdin)
+#define fo freopen("output.txt","w",stdout)
 
-typedef long long int  bigint ;
-typedef std::vector< int > vi;
-typedef std::vector< long long int > vll;
-typedef std::vector< vi > vvi;
+const double pi     =   acos(-1.0);
+const double eps    =   1e-8;
 
-using namespace std ;
 
-int cnt[10000001], F[10000001] , pref_sum[10000001] ;
 
-void makeFunctionF(){
-    for( int i = 2 ; i < 10000001 ; i++ ){
-        if( F[i] >= 0){
-        F[i] = cnt[i] ;
-        for( int j = 2 * i ; j < 10000001 ; j += i ){
-            F[i] += cnt[j] ;
-            F[j] = -1 ;
-        }
-      }
+vector <string> parse(string s, string c)
+{
+  int len = c.length(), p = -len, np;
+  vector <string> ans;
+
+  do
+    {
+      np = s.find(c, p+len);
+      ans.push_back(s.substr(p+len, np - p - len));
+      p = np;
     }
+  while (p != string::npos);
+
+  return ans;
 }
-            
-int main(){
-    FAST();
-    int N ; cin >> N ;
-    int arr[N] ;
-    for( int i = 0 ; i < N ; i++ ){
-        cin >> arr[i] ;
-        cnt[arr[i]] ++ ;
+
+/*Solution code starts here */
+
+#define maxi 10000011
+
+int cont[maxi];
+int prime[maxi];
+
+
+int main()
+{
+ ios_base::sync_with_stdio(0);
+
+ int n,x;
+
+ cin>>n;
+
+ for(int i=1;i<=n;i++)
+ { cin>>x;
+   cont[x]++;
+ }
+
+ memset(prime,0,sizeof(prime));
+
+ for(int i=2;i<maxi;i++)
+     if( prime[i] >=0)
+        {
+             prime[i]=cont[i];
+
+             for(int j=2*i;j<maxi;j+=i)
+             {
+                 prime[i]+=cont[j];
+                 prime[j]=-1;
+             }
+
+        }
+
+
+    for(int i=2;i<maxi;i++)
+    {
+         prime[i]=max(0,prime[i]);
+         prime[i]+=prime[i-1];
     }
-    makeFunctionF() ;
-    for( int i = 2 ; i < 10000001 ; i++ ){
-        pref_sum[i] = pref_sum[i-1] + max( 0 , F[i] ) ;
+
+    int Q;
+
+    cin>>Q;
+
+    int a,b;
+
+    for(int i=1;i<=Q;i++)
+    {
+        cin>>a>>b;
+        b=min(maxi-1,b);
+        a=min(maxi-1,a);
+
+        cout<<max(0,prime[b]-prime[a-1])<<endl;
     }
-    int Q ; cin >> Q ;
-    while( Q-- ){
-        int L , R ; cin >> L >> R ;
-        L = min( L , 10000000 ) ;
-        R = min( R , 10000000 ) ;
-        cout << pref_sum[R] - pref_sum[L-1] << endl ;
-    }
-    return 0 ;
+
+ return 0;
+
 }
