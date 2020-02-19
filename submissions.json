@@ -732,6 +732,23 @@
     ],
     "timestamp": "Dec/16/2019 13:07"
   },
+  "CF71463316": {
+    "contest_id": 894,
+    "language": "GNU C++14",
+    "path": "codeforces/894/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "QAQ",
+    "problem_url": "https://codeforces.com/contest/894/problem/A",
+    "submission_id": "CF71463316",
+    "submission_url": "https://codeforces.com/contest/894/submission/71463316",
+    "tags": [
+      "brute force",
+      "dp",
+      "*800"
+    ],
+    "timestamp": "Feb/20/2020 03:01"
+  },
   "CF71463504": {
     "contest_id": 617,
     "language": "GNU C++14",
