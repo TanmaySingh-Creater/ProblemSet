@@ -21,7 +21,7 @@ int main(){
     long long int pro = 1 ;
     for( int i = 0 ; i < N ; i++ ){
         for( int j = i + 1  ; j < N ; j++ ){
-            pro = (pro  * abs( arr[i] - arr[j] )) % M ;
+            pro = (pro % M * abs( arr[i] - arr[j] )%M) % M ;
         }
     }
     cout << pro << endl ;
