@@ -732,6 +732,23 @@
     ],
     "timestamp": "Dec/16/2019 13:07"
   },
+  "CF73352804": {
+    "contest_id": 94,
+    "language": "GNU C++14",
+    "path": "codeforces/94/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Restoring Password",
+    "problem_url": "https://codeforces.com/contest/94/problem/A",
+    "submission_id": "CF73352804",
+    "submission_url": "https://codeforces.com/contest/94/submission/73352804",
+    "tags": [
+      "implementation",
+      "strings",
+      "*900"
+    ],
+    "timestamp": "Mar/15/2020 22:17"
+  },
   "CF73356158": {
     "contest_id": 1324,
     "language": "GNU C++14",
