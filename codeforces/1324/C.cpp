@@ -38,28 +38,25 @@ using namespace std ;
         FAST();
       
         int T;
-        cin >> T ;
-        while( T-- ){
-        string str ;
-        cin >> str ;
-            str += 'R' ;
-        bigint L = str.length() ;
-        
-            int ans = 0 , local_ans = 0 ;
-        for( int i = 0 ; i < L ; i++ ){
-            local_ans = 0 ;
-            if( str[i] == 'L' ){
-                for( int j = i ; j < L ; j++ ){
-                    if( str[j] != 'L' ){
-                        i = j ;
-                        break;
-                    }
-                    local_ans ++ ;
-                }
-                ans = max ( local_ans , ans ) ;
+        cin >> T;
+        while (T--) {
+            string s;
+            cin >> s;
+            
+            vector<int> pos;
+            pos.push_back(0);
+            for (int i = 0 ; i < int(s.size()) ; i++ ) {
+                if (s[i] == 'R') pos.push_back(i + 1);
             }
+            
+            pos.push_back(s.size() + 1);
+            int ans = 0;
+            
+            for (int i = 0; i < int(pos.size()) - 1; ++i) {
+                ans = max(ans, pos[i + 1] - pos[i]);
+            }
+            cout << ans << endl;
         }
-        cout << ans + 1  << endl ;
-        }
+        
         return 0 ;
     }
