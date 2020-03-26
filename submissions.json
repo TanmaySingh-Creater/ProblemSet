@@ -732,6 +732,23 @@
     ],
     "timestamp": "Dec/16/2019 13:07"
   },
+  "CF74484815": {
+    "contest_id": 265,
+    "language": "GNU C++14",
+    "path": "codeforces/265/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Roadside Trees (Simplified Edition)",
+    "problem_url": "https://codeforces.com/contest/265/problem/B",
+    "submission_id": "CF74484815",
+    "submission_url": "https://codeforces.com/contest/265/submission/74484815",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Mar/26/2020 22:23"
+  },
   "CF74487617": {
     "contest_id": 447,
     "language": "GNU C++14",
