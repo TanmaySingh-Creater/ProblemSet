@@ -732,6 +732,23 @@
     ],
     "timestamp": "Dec/16/2019 13:07"
   },
+  "CF74549698": {
+    "contest_id": 106,
+    "language": "GNU C++14",
+    "path": "codeforces/106/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Choosing Laptop",
+    "problem_url": "https://codeforces.com/contest/106/problem/B",
+    "submission_id": "CF74549698",
+    "submission_url": "https://codeforces.com/contest/106/submission/74549698",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Mar/27/2020 16:24"
+  },
   "CF74550815": {
     "contest_id": 110,
     "language": "GNU C++14",
