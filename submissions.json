@@ -732,6 +732,23 @@
     ],
     "timestamp": "Dec/16/2019 13:07"
   },
+  "CF76738212": {
+    "contest_id": 779,
+    "language": "GNU C++14",
+    "path": "codeforces/779/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "String Game",
+    "problem_url": "https://codeforces.com/contest/779/problem/D",
+    "submission_id": "CF76738212",
+    "submission_url": "https://codeforces.com/contest/779/submission/76738212",
+    "tags": [
+      "binary search",
+      "strings",
+      "*1700"
+    ],
+    "timestamp": "Apr/15/2020 02:13"
+  },
   "CF76882016": {
     "contest_id": 1339,
     "language": "GNU C++14",
