@@ -732,6 +732,22 @@
     ],
     "timestamp": "Dec/16/2019 13:07"
   },
+  "CF77077262": {
+    "contest_id": 121,
+    "language": "GNU C++14",
+    "path": "codeforces/121/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Lucky Sum",
+    "problem_url": "https://codeforces.com/contest/121/problem/A",
+    "submission_id": "CF77077262",
+    "submission_url": "https://codeforces.com/contest/121/submission/77077262",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Apr/17/2020 18:37"
+  },
   "CF77179316": {
     "contest_id": 489,
     "language": "GNU C++14",
