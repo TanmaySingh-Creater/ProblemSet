@@ -732,6 +732,26 @@
     ],
     "timestamp": "Dec/16/2019 13:07"
   },
+  "CF77179929": {
+    "contest_id": 919,
+    "language": "GNU C++14",
+    "path": "codeforces/919/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Perfect Number",
+    "problem_url": "https://codeforces.com/contest/919/problem/B",
+    "submission_id": "CF77179929",
+    "submission_url": "https://codeforces.com/contest/919/submission/77179929",
+    "tags": [
+      "binary search",
+      "brute force",
+      "dp",
+      "implementation",
+      "number theory",
+      "*1100"
+    ],
+    "timestamp": "Apr/18/2020 17:47"
+  },
   "CF77184974": {
     "contest_id": 550,
     "language": "GNU C++14",
