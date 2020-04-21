@@ -5,9 +5,9 @@
 // INDIAN INSTITUTE OF TECHNOLOGY (BHU) , VARANASI
 //  Copyright © 2020 Tanmay Singh. All rights reserved.
 //#pragma GCC target ("avx2")
-//#pragma GCC optimization ("O3")
+#pragma GCC optimization ("O3")
 //#pragma GCC optimization ("unroll-loops")
- 
+
 #include <algorithm>
 #include <bitset>
 #include <cassert>
@@ -38,19 +38,19 @@
 #include <unordered_set>
 #include <utility>
 #include <vector>
- 
+
 #define FAST(); ios_base::sync_with_stdio(false);cin.tie(NULL);
 #define endl "\n"
- 
+
 typedef long long int  bigint ;
 typedef std::vector< int > vi;
 typedef std::vector< long long int > vll;
 typedef std::vector< vi > vvi;
- 
+
 using namespace std ;
- 
+
 int cnt[10000001], F[10000001] , pref_sum[10000001] ;
- 
+
 void makeFunctionF(){
     for( int i = 2 ; i < 10000001 ; i++ ){
         if( F[i] >= 0){
