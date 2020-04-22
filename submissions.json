@@ -732,6 +732,25 @@
     ],
     "timestamp": "Dec/16/2019 13:07"
   },
+  "CF77662674": {
+    "contest_id": 767,
+    "language": "GNU C++14",
+    "path": "codeforces/767/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Garland",
+    "problem_url": "https://codeforces.com/contest/767/problem/C",
+    "submission_id": "CF77662674",
+    "submission_url": "https://codeforces.com/contest/767/submission/77662674",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "greedy",
+      "trees",
+      "*2000"
+    ],
+    "timestamp": "Apr/22/2020 20:21"
+  },
   "CF77678474": {
     "contest_id": 1133,
     "language": "GNU C++14",
