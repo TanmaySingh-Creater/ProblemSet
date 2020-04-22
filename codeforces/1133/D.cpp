@@ -64,7 +64,7 @@ int main(){
     for( int i = 0 ; i < N ; i++ ){
         cin >> brr[i] ;
     }
-    map<string , int> m ;
+    map<pair<int , int> , int> m ;
     int ans = 0 ;
     for( int i = 0 ; i < N ; i++ ){
         if( arr[i] == 0 && brr[i] == 0 ){
@@ -76,18 +76,25 @@ int main(){
         int a = arr[i] , b = brr[i] ;
         int G = gcd(abs( arr[i]) ,abs( brr[i] )) ;
         a /= G ; b /= G ;
-        if( (a < 0 && b < 0) || ( a < 0 && b > 0 )  ){
-            m[to_string(b) + to_string(-a)]++ ;
+        if( a < 0 && b < 0 ){
+            m[{ b , -a }]++ ;
         }
-       else if( (a > 0 && b > 0) || ( a > 0 && b < 0 )){
-            m[to_string(-b) + to_string(a)]++ ;
+       else if( a > 0 && b > 0 ){
+            m[{ -b , a  }]++ ;
         }
+       else if ( a > 0 && b < 0 ){
+           m[{ -b , a }]++ ;
+       }
+       else if( a < 0 && b > 0 ){
+           m[{ b , -a }]++ ;
+       }
         if( brr[i] == 0 ){
+            
             if( a < 0 ){
-                m[to_string(0) + to_string(-a)]++ ;
+                m[{ 0 , -a }]++ ;
             }
             else if( a > 0 ){
-                m[to_string(0) + to_string(a)]++ ;
+                m[{ 0 , a }]++ ;
             }
         }
     }
