@@ -7,7 +7,7 @@
 //#pragma GCC target ("avx2")
 //#pragma GCC optimization ("O3")
 //#pragma GCC optimization ("unroll-loops")
- 
+
 #include <algorithm>
 #include <bitset>
 #include <cassert>
@@ -38,41 +38,63 @@
 #include <unordered_set>
 #include <utility>
 #include <vector>
- 
+
 #define FAST(); ios_base::sync_with_stdio(false);cin.tie(NULL);
 #define endl "\n"
- 
+
 typedef long long int  bigint ;
 typedef std::vector< int > vi;
 typedef std::vector< long long int > vll;
 typedef std::vector< vi > vvi;
- 
+
 using namespace std ;
+int gcd( int a , int b ){
+    if( b == 0 ){
+        return a ;
+    }
+    return gcd( b , a % b ) ;
+}
 int main(){
     FAST();
     int N ; cin >> N ;
-    long double arr[N] , brr[N] ;
+    double arr[N] , brr[N] ;
     for( int i = 0 ; i < N ; i++ ){
         cin >> arr[i] ;
     }
     for( int i = 0 ; i < N ; i++ ){
         cin >> brr[i] ;
     }
-    map<long double , int> m ;
+    map<string , int> m ;
     int ans = 0 ;
     for( int i = 0 ; i < N ; i++ ){
-        if( arr[i] != 0 ){
-            m[-brr[i]/arr[i]]++ ;
-        }
         if( arr[i] == 0 && brr[i] == 0 ){
-            ans ++ ;
+           ans++ ;
+           continue ;
+        }
+        if( arr[i] == 0 )
+            continue ;
+        int a = arr[i] , b = brr[i] ;
+        int G = gcd(abs( arr[i]) ,abs( brr[i] )) ;
+        a /= G ; b /= G ;
+        if( (a < 0 && b < 0) || ( a < 0 && b > 0 )  ){
+            m[to_string(b) + to_string(-a)]++ ;
+        }
+       else if( (a > 0 && b > 0) || ( a > 0 && b < 0 )){
+            m[to_string(-b) + to_string(a)]++ ;
+        }
+        if( brr[i] == 0 ){
+            if( a < 0 ){
+                m[to_string(0) + to_string(-a)]++ ;
+            }
+            else if( a > 0 ){
+                m[to_string(0) + to_string(a)]++ ;
+            }
         }
     }
     int res = 0 ;
     for( auto x : m ){
-        res = max( x.second , res ) ;
+        res = max( res , x.second ) ;
     }
-    cout << ans + res << endl ;
+    cout << res + ans << endl ;
     return 0 ;
-    
 }
