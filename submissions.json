@@ -583,6 +583,22 @@
     ],
     "timestamp": "Dec/28/2020 01:12"
   },
+  "CF80533940": {
+    "contest_id": 266,
+    "language": "GNU C++17",
+    "path": "codeforces/266/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Stones on the Table",
+    "problem_url": "https://codeforces.com/contest/266/problem/A",
+    "submission_id": "CF80533940",
+    "submission_url": "https://codeforces.com/contest/266/submission/80533940",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "May/17/2020 21:01"
+  },
   "CF80534428": {
     "contest_id": 122,
     "language": "GNU C++17",
