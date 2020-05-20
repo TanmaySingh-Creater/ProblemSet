@@ -583,6 +583,22 @@
     ],
     "timestamp": "Dec/28/2020 01:12"
   },
+  "CF80764812": {
+    "contest_id": 56,
+    "language": "GNU C++17",
+    "path": "codeforces/56/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Spoilt Permutation",
+    "problem_url": "https://codeforces.com/contest/56/problem/B",
+    "submission_id": "CF80764812",
+    "submission_url": "https://codeforces.com/contest/56/submission/80764812",
+    "tags": [
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "May/20/2020 16:25"
+  },
   "CF80767809": {
     "contest_id": 448,
     "language": "GNU C++17",
