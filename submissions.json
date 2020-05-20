@@ -583,6 +583,24 @@
     ],
     "timestamp": "Dec/28/2020 01:12"
   },
+  "CF80794002": {
+    "contest_id": 192,
+    "language": "GNU C++17",
+    "path": "codeforces/192/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Funky Numbers",
+    "problem_url": "https://codeforces.com/contest/192/problem/A",
+    "submission_id": "CF80794002",
+    "submission_url": "https://codeforces.com/contest/192/submission/80794002",
+    "tags": [
+      "binary search",
+      "brute force",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "May/20/2020 22:41"
+  },
   "CF80837513": {
     "contest_id": 219,
     "language": "GNU C++17",
