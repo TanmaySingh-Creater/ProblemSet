@@ -583,6 +583,22 @@
     ],
     "timestamp": "Dec/28/2020 01:12"
   },
+  "CF80772691": {
+    "contest_id": 83,
+    "language": "GNU C++17",
+    "path": "codeforces/83/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Magical Array",
+    "problem_url": "https://codeforces.com/contest/83/problem/A",
+    "submission_id": "CF80772691",
+    "submission_url": "https://codeforces.com/contest/83/submission/80772691",
+    "tags": [
+      "math",
+      "*1300"
+    ],
+    "timestamp": "May/20/2020 18:06"
+  },
   "CF80773719": {
     "contest_id": 53,
     "language": "GNU C++17",
