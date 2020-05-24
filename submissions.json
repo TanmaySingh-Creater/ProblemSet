@@ -583,6 +583,23 @@
     ],
     "timestamp": "Dec/28/2020 01:12"
   },
+  "CF81201865": {
+    "contest_id": 518,
+    "language": "GNU C++17",
+    "path": "codeforces/518/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Vitaly and Strings",
+    "problem_url": "https://codeforces.com/contest/518/problem/A",
+    "submission_id": "CF81201865",
+    "submission_url": "https://codeforces.com/contest/518/submission/81201865",
+    "tags": [
+      "constructive algorithms",
+      "strings",
+      "*1600"
+    ],
+    "timestamp": "May/24/2020 18:55"
+  },
   "CF81220526": {
     "contest_id": 598,
     "language": "GNU C++17",
