@@ -583,6 +583,22 @@
     ],
     "timestamp": "Dec/28/2020 01:12"
   },
+  "CF81173198": {
+    "contest_id": 1023,
+    "language": "GNU C++17",
+    "path": "codeforces/1023/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Bracket Subsequence",
+    "problem_url": "https://codeforces.com/contest/1023/problem/C",
+    "submission_id": "CF81173198",
+    "submission_url": "https://codeforces.com/contest/1023/submission/81173198",
+    "tags": [
+      "greedy",
+      "*1200"
+    ],
+    "timestamp": "May/24/2020 17:32"
+  },
   "CF81201865": {
     "contest_id": 518,
     "language": "GNU C++17",
