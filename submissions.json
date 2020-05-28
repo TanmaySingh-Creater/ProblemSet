@@ -583,6 +583,24 @@
     ],
     "timestamp": "Dec/28/2020 01:12"
   },
+  "CF81822580": {
+    "contest_id": 1005,
+    "language": "GNU C++17",
+    "path": "codeforces/1005/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Polycarp and Div 3",
+    "problem_url": "https://codeforces.com/contest/1005/problem/D",
+    "submission_id": "CF81822580",
+    "submission_url": "https://codeforces.com/contest/1005/submission/81822580",
+    "tags": [
+      "dp",
+      "greedy",
+      "number theory",
+      "*1500"
+    ],
+    "timestamp": "May/29/2020 00:26"
+  },
   "CF81826555": {
     "contest_id": 1176,
     "language": "GNU C++17",
