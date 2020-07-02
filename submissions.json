@@ -583,6 +583,24 @@
     ],
     "timestamp": "Dec/28/2020 01:12"
   },
+  "CF85731918": {
+    "contest_id": 1066,
+    "language": "GNU C++17",
+    "path": "codeforces/1066/E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Binary Numbers AND Sum",
+    "problem_url": "https://codeforces.com/contest/1066/problem/E",
+    "submission_id": "CF85731918",
+    "submission_url": "https://codeforces.com/contest/1066/submission/85731918",
+    "tags": [
+      "data structures",
+      "implementation",
+      "math",
+      "*1700"
+    ],
+    "timestamp": "Jul/02/2020 08:58"
+  },
   "CF87204582": {
     "contest_id": 1385,
     "language": "GNU C++17",
