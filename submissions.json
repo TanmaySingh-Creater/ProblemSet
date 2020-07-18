@@ -583,6 +583,26 @@
     ],
     "timestamp": "Dec/28/2020 01:12"
   },
+  "CF87204582": {
+    "contest_id": 1385,
+    "language": "GNU C++17",
+    "path": "codeforces/1385/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "a-Good String",
+    "problem_url": "https://codeforces.com/contest/1385/problem/D",
+    "submission_id": "CF87204582",
+    "submission_url": "https://codeforces.com/contest/1385/submission/87204582",
+    "tags": [
+      "bitmasks",
+      "brute force",
+      "divide and conquer",
+      "dp",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Jul/18/2020 12:42"
+  },
   "CF91639245": {
     "contest_id": 598,
     "language": "GNU C++17",
