@@ -583,6 +583,23 @@
     ],
     "timestamp": "Dec/28/2020 01:12"
   },
+  "CF91639245": {
+    "contest_id": 598,
+    "language": "GNU C++17",
+    "path": "codeforces/598/C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Nearest vectors",
+    "problem_url": "https://codeforces.com/contest/598/problem/C",
+    "submission_id": "CF91639245",
+    "submission_url": "https://codeforces.com/contest/598/submission/91639245",
+    "tags": [
+      "geometry",
+      "sortings",
+      "*2300"
+    ],
+    "timestamp": "Sep/02/2020 17:47"
+  },
   "CF93099283": {
     "contest_id": 1063,
     "language": "GNU C++17",
