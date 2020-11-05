@@ -583,6 +583,24 @@
     ],
     "timestamp": "Dec/28/2020 01:12"
   },
+  "CF97683166": {
+    "contest_id": 676,
+    "language": "GNU C++17",
+    "path": "codeforces/676/B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Pyramid of Glasses",
+    "problem_url": "https://codeforces.com/contest/676/problem/B",
+    "submission_id": "CF97683166",
+    "submission_url": "https://codeforces.com/contest/676/submission/97683166",
+    "tags": [
+      "implementation",
+      "math",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Nov/05/2020 13:10"
+  },
   "CF97836422": {
     "contest_id": 2,
     "language": "GNU C++17",
