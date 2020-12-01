@@ -1,4 +1,20 @@
 {
+  "CF100096909": {
+    "contest_id": 1216,
+    "language": "GNU C++17",
+    "path": "codeforces/1216/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Prefixes",
+    "problem_url": "https://codeforces.com/contest/1216/problem/A",
+    "submission_id": "CF100096909",
+    "submission_url": "https://codeforces.com/contest/1216/submission/100096909",
+    "tags": [
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Dec/01/2020 14:32"
+  },
   "CF100097100": {
     "contest_id": 1216,
     "language": "GNU C++14",
