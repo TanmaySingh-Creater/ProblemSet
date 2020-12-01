@@ -1,4 +1,20 @@
 {
+  "CF100100973": {
+    "contest_id": 1216,
+    "language": "GNU C++14",
+    "path": "codeforces/1216/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Swords",
+    "problem_url": "https://codeforces.com/contest/1216/problem/D",
+    "submission_id": "CF100100973",
+    "submission_url": "https://codeforces.com/contest/1216/submission/100100973",
+    "tags": [
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Dec/01/2020 15:31"
+  },
   "CF100101283": {
     "contest_id": 1216,
     "language": "GNU C++11",
