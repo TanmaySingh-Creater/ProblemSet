@@ -32,10 +32,8 @@ void dijisktra( int src , bigint dist[] ){
             ans++ ;
         for( auto u : adj[v] ){
         
-            if( D + u.second.first <= dist[u.first] ){
                 pq.push({dist[u.first] = D + u.second.first,{u.first ,u.second.second}}) ;
                 
-            }
         }
     }
 }

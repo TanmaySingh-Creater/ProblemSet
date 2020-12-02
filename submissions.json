@@ -1,4 +1,22 @@
 {
+  "CF100182095": {
+    "contest_id": 450,
+    "language": "GNU C++17",
+    "path": "codeforces/450/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Jzzhu and Cities",
+    "problem_url": "https://codeforces.com/contest/450/problem/D",
+    "submission_id": "CF100182095",
+    "submission_url": "https://codeforces.com/contest/450/submission/100182095",
+    "tags": [
+      "graphs",
+      "greedy",
+      "shortest paths",
+      "*2000"
+    ],
+    "timestamp": "Dec/02/2020 16:49"
+  },
   "CF100186898": {
     "contest_id": 450,
     "language": "GNU C++17",
