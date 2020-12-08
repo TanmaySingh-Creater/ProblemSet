@@ -1,4 +1,21 @@
 {
+  "CF100717331": {
+    "contest_id": 484,
+    "language": "GNU C++17",
+    "path": "codeforces/484/A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Bits",
+    "problem_url": "https://codeforces.com/contest/484/problem/A",
+    "submission_id": "CF100717331",
+    "submission_url": "https://codeforces.com/contest/484/submission/100717331",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "*1700"
+    ],
+    "timestamp": "Dec/08/2020 22:59"
+  },
   "CF100822238": {
     "contest_id": 1329,
     "language": "GNU C++17",
