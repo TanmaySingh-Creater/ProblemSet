@@ -29,7 +29,7 @@ int main(){
         prev_max[i] = max( arr[i] , prev_max[i-1] ) ;
     }
     
-    for( int i = 0 ; i <= 2e6 ; i++ ){
+    for( int i = 0 ; i <= 1e6 ; i++ ){
         if( arr[i] ){
             for( int j = 2 * i ; j < 2e6 + 5 ; j += i ){
                 ans = max( ans , prev_max[j-1] % i ) ;
