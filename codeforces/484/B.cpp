@@ -20,19 +20,18 @@ set<int> s ;
 int main(){
     FAST_IO ;
     int N ; cin >> N ;
-    int  ans = 0 , mx = 0 ;
+    int  ans = 0 ;
     for( int i = 0 ; i < N ; i++ ){
         int x ; cin >> x ;
         arr[x] = x ;
-        mx = max( mx , 2 * x ) ;
     }
     for( int i = 1 ; i <= 2e6 + 1 ; i++ ){
         prev_max[i] = max( arr[i] , prev_max[i-1] ) ;
     }
     
-    for( int i = 0 ; i <= 1e6 ; i++ ){
+    for( int i = 0 ; i <= 2e6 ; i++ ){
         if( arr[i] ){
-            for( int j = 2 * i ; j <= mx ; j += i ){
+            for( int j = 2 * i ; j < 2e6 + 5 ; j += i ){
                 ans = max( ans , prev_max[j-1] % i ) ;
             }
         }
@@ -41,4 +40,3 @@ int main(){
     cout << ans << endl ;
     return 0 ;
 }
-
