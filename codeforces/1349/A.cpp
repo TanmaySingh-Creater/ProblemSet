@@ -64,10 +64,11 @@ int main(){
     
     for( auto x : s ){
         int first_min = INT_MAX , second_min = INT_MAX ;
-        if( freq[x] < N - 1  ){
-            continue ;
-        }
         for( int i = 0 ; i < N ; i++ ){
+            if( freq[x] < N - 1  ){
+                second_min = 0 ;
+                break ;
+            }
             int n = arr[i] , counter = 0 ;
             while( n % x == 0 ){
                 counter++ ;
@@ -91,3 +92,4 @@ int main(){
     
     return 0 ;
 }
+
