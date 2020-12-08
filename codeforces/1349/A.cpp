@@ -41,31 +41,27 @@ bigint power( bigint A , bigint B , bigint md = mod ){
     }
     return ans ;
 }
-int freq[200005] ;
 int main(){
     FAST_IO ;
-    map<int, int> m ;
+    
     int N ; cin >> N ;
     int arr[N+1] ;
     for( int i = 0 ; i < N ; i++ ){
         cin >> arr[i] ;
-        m[arr[i]]++ ;
     }
     bigint ans = 1 ;
     
-    for( int i = 2 ; i <= 2e5 ; i++ ){
-        for( int j = i ; j <= 2e5 ; j += i ){
-            freq[i] += m[j] ;
-        }
-    }
     for( int i = 0 ; i < N ; i++ ){
         getPrimeDivisors(arr[i]) ;
     }
     
     for( auto x : s ){
-        int first_min = INT_MAX , second_min = INT_MAX ;
+        int first_min = INT_MAX , second_min = INT_MAX , cnt = 0 ;
         for( int i = 0 ; i < N ; i++ ){
-            if( freq[x] < N - 1  ){
+            if( arr[i] % x != 0 ){
+                cnt++ ;
+            }
+            if( cnt == 2 ){
                 second_min = 0 ;
                 break ;
             }
@@ -92,4 +88,3 @@ int main(){
     
     return 0 ;
 }
-
