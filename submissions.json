@@ -1,4 +1,23 @@
 {
+  "CF100698544": {
+    "contest_id": 1359,
+    "language": "GNU C++17",
+    "path": "codeforces/1359/D.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D",
+    "problem_name": "Yet Another Yet Another Task",
+    "problem_url": "https://codeforces.com/contest/1359/problem/D",
+    "submission_id": "CF100698544",
+    "submission_url": "https://codeforces.com/contest/1359/submission/100698544",
+    "tags": [
+      "data structures",
+      "dp",
+      "implementation",
+      "two pointers",
+      "*2000"
+    ],
+    "timestamp": "Dec/08/2020 18:56"
+  },
   "CF100702670": {
     "contest_id": 1349,
     "language": "GNU C++17",
