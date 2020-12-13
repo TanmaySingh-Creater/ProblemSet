@@ -43,10 +43,11 @@ int main(){
             div1[i] = div2[i] = -1 ;
         else{
             div1[i] = div2[i] = 1 ;
+            reverse(v.begin(), v.end() ) ;
             int d = v[0] ;
             for( auto x : v ){
                if( x == d )
-                   div1[i] = d ;
+                   div1[i] = x ;
                 else
                     div2[i] *= x ;
             }
